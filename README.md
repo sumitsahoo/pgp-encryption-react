@@ -1,6 +1,6 @@
 # Encryption with OpenPGP in React
 
-This repository shows how to integrate file encryption and decryption using OpenPGP standard in React. Here Symmetric encryption is used.
+This repository shows how to integrate file encryption and decryption using OpenPGP standard in React. Here Symmetric encryption is used. Streaming encryption and decryption is used to minimize memory usage by browser. 
 
 ## OpenPGP
 
@@ -17,3 +17,5 @@ Library Link: https://github.com/openpgpjs/openpgpjs
 ## Vite
 
 Vite is a fast build tool and development server for modern web applications, commonly used for Vue.js and React. It features a fast development server with hot module replacement, CSS preprocessing, and automatic asset optimization. Vite supports modern web technologies and can be customized with plugins and middleware. Its focus is on speed, performance, and developer experience.
+
+Link: https://vitejs.dev
