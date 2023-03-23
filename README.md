@@ -1,4 +1,4 @@
-# Encryption with OpenPGP in React
+# PGP Encryption in React using OpenPGP
 
 This repository shows how to integrate file encryption and decryption using OpenPGP standard in React. Here Symmetric encryption is used. Streaming encryption and decryption is used to minimize memory usage by browser. 
 
