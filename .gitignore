@@ -1,4 +1,5 @@
 .DS_STORE
+package-lock.json
 node_modules
 scripts/flow/*/.flowconfig
 .flowconfig
