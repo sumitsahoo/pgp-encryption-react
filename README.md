@@ -39,21 +39,6 @@ await streamEncryptFile(file);
 await streamDecryptFile(encryptedFile);
 ```
 
-## Dependencies
-
-- openpgp: ^5.7.0
-- react: ^18.2.0
-- react-dom: ^18.2.0
-- streamsaver: ^2.0.6
-
-## Dev Dependencies
-
-- @openpgp/web-stream-tools: ^0.0.13
-- @types/react: ^18.0.28
-- @types/react-dom: ^18.0.11
-- @vitejs/plugin-react: ^3.1.0
-- vite: ^4.2.1
-
 ## License
 
 MIT License
