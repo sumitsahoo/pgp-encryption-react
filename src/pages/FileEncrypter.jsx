@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import * as openpgp from "openpgp";
 import { createWriteStream } from "streamsaver";
 
-import * as streamSaver from 'streamsaver';
-streamSaver.mitm = '/mitm.html';
+import * as streamSaver from "streamsaver";
+streamSaver.mitm = "/mitm.html";
 
 const FileEncrypter = () => {
   const [file, setFile] = useState(null);

@@ -1,10 +1,8 @@
-import './App.css'
-import FileEncrypter from './pages/FileEncrypter'
+import "./App.css";
+import FileEncrypter from "./pages/FileEncrypter";
 
 function App() {
-  return (
-    <FileEncrypter/>
-  )
+  return <FileEncrypter />;
 }
 
-export default App
+export default App;
