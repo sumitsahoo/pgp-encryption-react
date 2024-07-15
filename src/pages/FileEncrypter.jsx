@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { Button, Input } from "@material-tailwind/react";
 import * as openpgp from "openpgp";
+import { useState } from "react";
 import { createWriteStream } from "streamsaver";
 
 import * as streamSaver from "streamsaver";
@@ -90,15 +91,15 @@ const FileEncrypter = () => {
   };
 
   return (
-    <div>
-      <input type="file" onChange={handleFileChange} />
-      <input
-        type="text"
-        placeholder="Password"
-        onChange={handlePasswordChange}
-      />
-      <button onClick={handleEncryptClick}>Encrypt</button>
-      <button onClick={handleDecryptClick}>Decrypt</button>
+    <div class="grid cols-1 gap-5">
+      <Input type="file" label="Select file" onChange={handleFileChange} />
+      <Input type="password" label="Password" onChange={handlePasswordChange} />
+      <Button onClick={handleEncryptClick} variant="gradient" color="blue-gray">
+        Encrypt
+      </Button>
+      <Button onClick={handleDecryptClick} variant="gradient" color="blue-gray">
+        Decrypt
+      </Button>
       <br />
     </div>
   );
