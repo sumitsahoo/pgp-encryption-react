@@ -2,6 +2,10 @@
 
 This repository shows how to integrate file encryption and decryption using OpenPGP standard in React. Here Symmetric encryption is used. Streaming encryption and decryption is used to minimize memory usage by browser. 
 
+## Live Demo
+
+Demo: https://sumitsahoo.github.io/pgp-encryption-react/
+
 ## OpenPGP
 
 OpenPGP (Pretty Good Privacy) is a free and open-source encryption standard used to secure email communication, files, and other data. It provides end-to-end encryption, which means that the data is encrypted on the sender's device and can only be decrypted by the intended recipient with their private key. OpenPGP uses public key cryptography to encrypt and decrypt data, and digital signatures to verify the authenticity and integrity of the data. It is widely used by individuals, businesses, and organizations to protect sensitive information and ensure secure communication.
